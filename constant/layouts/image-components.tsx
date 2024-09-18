@@ -10,7 +10,7 @@ export default async function ImageComponents({ url, customClassname }: ImageCom
   const imageUrl = await getImageUrl(url)
   return (
     <>
-      <Image src={imageUrl} alt={imageUrl} width={800} height={800} className={customClassname} />
+      <Image src={imageUrl} alt={imageUrl} width={1000} height={1000} className={customClassname} />
     </>
   )
 }
