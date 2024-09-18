@@ -3,15 +3,14 @@ import Image from "next/image"
 
 interface ImageComponentsProps {
   url: string
-  width: number
-  height: number
+  customClassname?: string
 }
 
-export default async function ImageComponents({ url, width, height }: ImageComponentsProps) {
+export default async function ImageComponents({ url, customClassname }: ImageComponentsProps) {
   const imageUrl = await getImageUrl(url)
   return (
     <>
-      <Image src={imageUrl} alt={imageUrl} width={width} height={height} />
+      <Image src={imageUrl} alt={imageUrl} width={800} height={800} className={customClassname} />
     </>
   )
 }
