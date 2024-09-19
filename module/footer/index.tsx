@@ -11,7 +11,7 @@ export default function Footer() {
           </Link>
           <div className="mt-3 text-gray-400">
             Untuk pertanyaan lebih lanjut, silahkan hubungi admin melalui
-            <a href="https://wa.me/+6283137446693" className="text-secondary px-1 rounded hover:animate-blink">
+            <a href="https://wa.me/+6283137446693" target="_blank" className="text-secondary px-1 rounded hover:animate-blink">
               here
             </a>
           </div>
