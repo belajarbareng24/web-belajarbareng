@@ -5,7 +5,7 @@ export default function Benefit() {
     <div className="w-full px-4 md:w-3/4 mx-auto">
       <ImageComponents url="coding.png" customClassname="w-full border-8 border-secondary rounded" />
 
-      <div className="grid lg:grid-cols-2 my-24 gap-y-10">
+      <div id="benefit" className="grid lg:grid-cols-2 my-24 gap-y-10 pt-16">
         <div className="grid gap-12">
           <ImageComponents url="next.png" customClassname="w-[90%] border-4 border-secondary hover:scale-110 duration-500 cursor-pointer rounded" />
           <ImageComponents url="flutter.png" customClassname="ml-8 w-[90%] border-4 border-secondary hover:scale-110 duration-500 cursor-pointer rounded" />

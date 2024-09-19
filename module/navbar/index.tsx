@@ -12,14 +12,14 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="flex items-center justify-center gap-8 text-xl font-semibold">
-        <Link href="/" className="hover:animate-blink hover:text-secondary">
-          Belajar
+        <Link href={"#benefit"} className="hover:animate-blink hover:text-secondary">
+          Benefit
         </Link>
-        <Link href="/" className="hover:animate-blink hover:text-secondary">
-          Komunitas
+        <Link href={"#faq"} className="hover:animate-blink hover:text-secondary">
+          Faq
         </Link>
-        <Link href="/" className="hover:animate-blink hover:text-secondary">
-          Artikel
+        <Link href={"#materi"} className="hover:animate-blink hover:text-secondary">
+          Materi
         </Link>
       </div>
     </nav>

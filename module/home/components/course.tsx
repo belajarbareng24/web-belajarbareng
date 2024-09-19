@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Course() {
   return (
-    <div className="w-full px-4 md:w-3/4 mx-auto mt-24 mb-20">
+    <div id="materi" className="w-full px-4 md:w-3/4 mx-auto mt-24 mb-20">
       <h1 className="text-center text-secondary  text-4xl font-sans font-bold my-6">Materi yang akan diberikan</h1>
       <p className="text-gray-400">Komunitas ini akan mengadakan sesi pelatihan dan juga akan ada seminar kedepannya , adapun framework framework yang akan digunakan untuk pelatihan ini adalah :</p>
       <div className="grid gap-2 my-8">

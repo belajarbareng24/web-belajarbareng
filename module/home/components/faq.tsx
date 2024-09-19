@@ -11,7 +11,7 @@ export default function Faq() {
     setShow(show === index ? null : index)
   }
   return (
-    <div className="w-full px-4 md:w-3/4 mx-auto">
+    <div id="faq" className="w-full px-4 md:w-3/4 mx-auto">
       <div className="text-center">
         <p className="text-secondary text-lg my-3">Pertanyaan yang mungkin kamu tanyakan</p>
         <h1 className="font-sans font-bold text-4xl">Frequently Asked Questions</h1>
